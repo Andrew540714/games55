@@ -10,6 +10,24 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
       <script src="script.js"></script>
       <title>Example web page</title> <!-- the title shows in the tab of the browser -->
+	<style>
+	 * 	{
+	 box-sizing: border-box;
+	 }
+
+	 .column {
+	 float: left;
+	 width: 33.33%;
+     padding: 5px;
+     }
+
+	 /* Clearfix (clear floats) */
+	 .row::after {
+	 content: "";
+	 clear: both;
+	 display: table;
+	} <!-- Side by side image code taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side -->
+	</style>
     </head>
     <body> <!-- the body element contains all the content to display on the web page -->
      <nav class="navbar navbar-expand-sm bg-light">
@@ -30,6 +48,7 @@
 	  </div>
 	  </nav>
     <h1>Minecraft Page</h1> <!-- the heading for the page -->
+	
     <p> <!-- the p tag makes a paragraph. -->
      About the game: Minecraft is a widely popular sandbox video game developed by Mojang Studios. 
 Released in 2011, it allows players to explore, build, and create in a procedurally generated 3D world made up of blocks representing various materials like dirt, stone, 
@@ -37,20 +56,48 @@ wood, and ores. The game's open-ended nature means there are no specific goals, 
 landscapes and battling creatures known as "mobs" <!--Info from https://www.perplexity.ai/search/write-what-minecraft-is-about-SYaA9mLxSlOnZEZ_sgFQEg -->
 	  </p>
       <ul>
-       <li>The first version of Minecraft was released for PC players on 17 May 2009 and it was called Cave Game. The full version was released on 18 November 2011</li> <!--- information 
+       
+	   <li>The first version of Minecraft was released for PC players on 17 May 2009 and it was called Cave Game. The full version was released on 18 November 2011</li> <!--- information 
 	   from https://simple.wikipedia.org/wiki/Minecraft#:~:text=The%20first%20version%20of%20Minecraft%20was%20released%20for%20PC%20players,released%20on%2017%20November%202011. -->
-       <li>Minecraft is a game where the main objective to create. You can play in survival or creative mode.</li> <!-- info from these facts from
+       
+	   <li>Minecraft is a game where the main objective to create. You can play in survival or creative mode.</li> <!-- info from these facts from
 	   https://www.perplexity.ai/search/write-what-minecraft-is-about-SYaA9mLxSlOnZEZ_sgFQEg -->
+	   
 	   <li> Five Game Modes: Minecraft features five game modes: Survival, Creative, Hardcore, Adventure, and Spectator. 
 	   The most popular are Survival and Creative, each offering distinct gameplay experiences.</li>
+	   
 	   <li> Players can gather materials to craft tools, weapons, and structures. 
 	   The game includes a wide variety of items, from simple tools to complex redstone machinery, 
 	   enabling intricate designs and contraptions.</li>
-      </ul>  
-     <img src="minecraft_image.jpg" alt="a picture of minecraft" width="500" height="258"> <!-- i used a jpg because it didnt need to be transparent -->
+       </ul>
+     <ul2>
+	 <div class="row">
+	 <div class="column">
+	 <img src="minecraft_image.jpg" alt="a picture of minecraft" width="500" height="290"> <!-- i used a jpg because it didnt need to be transparent -->
+	 </div>
 	 
-  
-      
+	 <div class="column">
+	 <img src="minecraft_image.jpg" alt="a picture of minecraft" width="500" height="290"> <!-- i used a jpg because it didnt need to be transparent -->
+	 </div>
+	 
+	 <div class="column">
+	 <img src="minecraft_image.jpg" alt="a picture of minecraft" width="500" height="290"> <!-- i used a jpg because it didnt need to be transparent -->
+	 </div>
+	 </div>
+	 </ul2>
+	 <p>
+	 Minecraft has achieved remarkable success since its launch, solidifying its status as one of the most popular video games of all time. Here are some key indicators of its success:
+     </p>
+     <ul>
+	   <li>Sales Milestone: As of October 2023, Minecraft has sold over 300 million copies worldwide, making it the best-selling video game ever.</li>
+	  
+	   <li>Active Players: The game boasts an impressive player base, with over 166 million active players monthly and 25 million peak daily active players reported in 2023. </li>
+	  
+	   <li>Revenue Generation: Minecraft generated approximately $365 million in revenue in 2022, with a significant portion coming from mobile platforms. The game has accumulated around $3 billion in total revenue since its launch. </li>
+	  
+	  <!-- achievements information from https://www.perplexity.ai/search/how-sucsessful-is-minecraft-.itVm6OfRFabSnBp8yOyhw -->
+	  </ul>
+	  
     </body>
   </html> <!-- closing html tag -->
               

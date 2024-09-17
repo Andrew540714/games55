@@ -1,31 +1,31 @@
 body{
   background-color: #012245;
-  
+  font-family: OCR A Std, monospace
 }
 
 h1{
 color: #fcde72 ;
-background: #F8EB88
+background: black
 color; blue;
-font-family: OCR A Std, monospace
+
 
 }
 
 h2{
 color: #86d9cf;
-text-align: center ;
-font-family: OCR A Std, monospace
+
+
 
 }
 p{
+text-align: center ;
 color: #47a32e;
-font-family: OCR A Std, monospace
+
 	
 }
 li{;
-text-align: center ;
 color: #999036;	
-font-family: OCR A Std, monospace
+
 	
 	
 }
@@ -33,14 +33,14 @@ font-family: OCR A Std, monospace
 ul{;
 text-align: left ;
 color: #eefc6f;	
-font-family: OCR A Std, monospace
+
 	
 	
 }
 ul2{;
-text-align: left ;
+text-align: center ;
 color: #999036;	
-font-family: OCR A Std, monospace
+
 	
 	
 }
