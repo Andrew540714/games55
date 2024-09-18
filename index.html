@@ -10,6 +10,25 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
       <script src="script.js"></script>
       <title>Example web page</title> <!-- the title shows in the tab of the browser -->
+	 <style>
+	 * 	{
+	 box-sizing: border-box;
+	 }
+
+	 .column {
+	 float: left;
+	 width: 25%;
+     padding: 5px;
+     }
+
+	 /* Clearfix (clear floats) */
+	 .row::after {
+	 content: "";
+	 clear: both;
+	 display: table;
+	} <!-- Side by side image code taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side -->
+
+	</style>
     </head>
 
     <body> <!-- the body element contains all the content to display on the web page -->
@@ -39,18 +58,35 @@
        video games history
       </ul>  
 	  <ul2>
+	  <p>
        The roots of video games can be traced back to the 1950s and 1960s. In 1958, physicist William Higinbotham created "Tennis for Two," one of the first interactive electronic games. However, it was Steve Russell's "Spacewar!" in 1962 that is often considered the first true video game, 
 	   gaining popularity within the small programming community of the era. The mid-1970s marked the beginning of home video game consoles. 
-      </ul2>  
-      <ul>
-      </ul>  
-	  <ul2>
+      </p>  
+      
+	  <p>
        The late 1970s and 1980s are often referred to as the golden age of video games. This period saw the release of iconic games like "Space Invaders" (1978), "Pac-Man" (1980), and "Donkey Kong" (1981). Arcades became hugely popular, 
 	   and home consoles like the Atari 2600 brought video games into living rooms across America. The 1990s and beyond saw rapid technological advancements, leading to more sophisticated games and consoles. The introduction of 3D graphics, online multiplayer gaming, and mobile gaming have all contributed to the industry's growth. Today, video games are a diverse and expansive medium, encompassing everything from simple mobile games 
 	   to complex virtual reality experiences. 
-      </ul2> <!-- information compiled from https://www.perplexity.ai/search/write-about-the-history-of-vid-lmjLxFdUQvaIwgA2WIUMmw -->
+   	 </p> <!-- information compiled from https://www.perplexity.ai/search/write-about-the-history-of-vid-lmjLxFdUQvaIwgA2WIUMmw -->
+	 </ul2>
+	 <ul2>
+	<div class="row">
+	 <div class="column">
+	 <img src="maxresdefault.jpg" alt="a picture of Space War! Game" width="350" height="200"> <!-- i used a jpg because it didnt need to be transparent -->
+	 </div>
 	 
-  
-      
+	 <div class="column">
+	 <img src="hero-image.fill.size_994x559.v1678673186.jpg" alt="a picture of Pac Man videogame" width="350" height="200"> <!-- i used a jpg because it didnt need to be transparent -->
+	 </div>
+	 
+	 <div class="column">
+	 <img src="rZqC8wvQ5BdUXJPCbeMie6.jpg" alt="a picture of Super Mario videogame" width="350" height="200"> <!-- i used a jpg because it didnt need to be transparent -->
+	 </div>
+	 
+	 <div class="column">
+	 <img src="MC.png" alt="a picture of Minecraft videogame" width="350" height="200"> <!-- i used a jpg because it didnt need to be transparent -->
+	 </div>
+	 </div>
+     </ul2>
     </body>
   </html> <!-- closing html tag -->
